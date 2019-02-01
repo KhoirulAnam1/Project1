@@ -1,0 +1,530 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"] {float: left; padding: 15px;}
+
+/* for smartphone */
+[class*="col-"] {width: 100%;}
+
+@media only screen and (min-width: 600px)
+{
+    /* for tablets */
+    .col-s-1 {width: 8.33%; }
+    .col-s-2 {width: 16.66%; }
+    .col-s-3 {width: 25%; }
+    .col-s-4 {width: 33.33%; }
+    .col-s-5 {width: 41.66%; }
+    .col-s-6 {width: 50%; }
+    .col-s-7 {width: 58.33%; }
+    .col-s-8 {width: 66.66%; }
+    .col-s-9 {width: 75%; }
+    .col-s-10 {width: 83.33%; }
+    .col-s-11 {width: 91.66%; }
+    .col-s-12 {width: 100%; }
+}
+
+@media only screen and (min-width: 768px)
+{
+    /* for desktop */
+    .col-1 {width: 8.33%; }
+    .col-2 {width: 16.66%; }
+    .col-3 {width: 25%; }
+    .col-4 {width: 33.33%; }
+    .col-5 {width: 41.66%; }
+    .col-6 {width: 50%; }
+    .col-7 {width: 58.33%; }
+    .col-8 {width: 66.66%; }
+    .col-9 {width: 75%; }
+    .col-10 {width: 83.33%; }
+    .col-11 {width: 91.66%; }
+    .col-12 {width: 100%; }
+}
+
+.bg-white{color: white;}
+
+div.menu{
+    height: 110px;
+    background: black;
+    display: block;
+    position: fixed;
+}
+
+div.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+div.menu li{
+    float: left;
+    padding: 1px;
+    margin: 15px;
+}
+div.menu ul li a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: grey;
+    margin-top: 18px;
+}
+
+div.menu ul li a:hover{ 
+    color: green;
+    border-bottom: 2px solid green; 
+}
+
+div.menu .gambar{
+    position: absolute;
+    float: right;
+}
+
+div.menu .gambar img{
+    height: 60px;
+    margin-left: 1350px;
+    margin-bottom: 80px;
+}
+
+div.awalan{
+    height: 700px;
+    float: left;
+    background: black;
+    margin-top: 100px;
+}
+
+div.awalan .left{
+    height: auto;
+    float: left;
+}
+
+div.awalan .left h1{
+    text-align: center;
+    font-size: 100px;
+    color: green;
+    font-family: 'Barking Cat DEMO';
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+div.awalan .right{
+    float: left;
+    height: auto;
+}
+
+div.awalan .right .gambar{
+    height: 100px;
+    margin-left: 80px;
+}
+
+.bg-black{color: black;}
+
+div.profil{
+    height: 75%;
+    float: left;
+    background: white;
+}
+
+div.profil .judul h1{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: grey;
+    text-align: right;
+}
+
+div.profil .left{
+    margin-top: 30px;
+    height: 400px;;
+    float: left;
+    border-right: 2px solid green;
+}
+
+div.profil .left p{
+    text-align: right;
+    font-size: 20px;
+    color: grey;
+    margin-top: 100px;
+}
+
+div.profil .right{
+    margin-top: 30px;
+    height: 400px;
+    float: center;   
+}
+
+div.profil .right img{
+    height: 350px;
+    border: 5px solid black;
+    border-radius: 10px;
+    border-left: 2px solid green;
+}
+
+div.budaya{
+    height: 75%;
+    float: left;
+}
+
+div.budaya .judul{
+    font-family: sans-serif;
+    color: grey;
+    text-align: right;
+    font-size: 8px;
+}
+
+div.budaya .pertama{
+    background: white;
+    margin-top: 20px;
+}
+
+div.budaya .pertama .gambar{
+    text-align: center;
+}
+
+div.budaya .pertama p{
+    color: black;
+    text-align: center;
+}
+
+div.budaya .kedua{
+    background: grey;
+    margin-top: 20px;
+}
+
+div.budaya .kedua .gambar{
+    text-align: center;
+}
+
+div.budaya .kedua p{
+    color: white;
+    text-align: center;
+}
+
+div.budaya .ketiga{
+    background: black;
+    height: 318px;
+    margin-top: 20px;
+}
+
+div.budaya .ketiga .gambar{
+    text-align: center;
+}
+
+div.budaya .ketiga .gambar img{
+    height: 150px;
+}
+
+div.budaya .ketiga p{
+    color: white;
+    text-align: center;
+}
+
+div.kuliner{
+    height: 180%;
+    float: left;
+}
+
+div.kuliner .atas{
+    font-family: sans-serif;
+    color: grey;
+    text-align: right;
+    font-size: 8px;
+}
+
+div.kuliner .left{
+    height: 50%;
+}
+
+div.kuliner .left .gambar{
+    text-align: center;
+}
+
+div.kuliner .left .gambar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.kuliner .left .judul{
+    text-align: center;
+}
+
+div.kuliner .left .judul h1{
+    font-size: 30px;
+    font-family: inherit;
+}
+
+div.kuliner .left p{
+    text-align: center;
+}
+
+div.kuliner .left .tentang{
+    background: lightblue;
+    color: white;
+    margin-top: 35px;
+}
+
+div.kuliner .left .tentang h2{
+    margin: 2px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+div.kuliner .right{
+    height: 50%;
+}
+
+div.kuliner .right .gambar{
+    text-align: center;
+}
+
+div.kuliner .right .gambar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.kuliner .right .judul{
+    text-align: center;
+}
+
+div.kuliner .right .judul h1{
+    font-size: 30px;
+    font-family: inherit;
+}
+
+div.kuliner .right p{
+    text-align: center;
+}
+
+div.kuliner .right .tentang{
+    background: lightblue;
+    color: white;
+}
+
+div.kuliner .right .tentang h2{
+    margin: 2px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+div.kuliner .left1{
+    height: 50%;
+}
+
+div.kuliner .left1 .gambar{
+    text-align: center;
+}
+
+div.kuliner .left1 .gambar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.kuliner .left1 .judul{
+    text-align: center;
+}
+
+div.kuliner .left1 .judul h1{
+    font-size: 30px;
+    font-family: inherit;
+}
+
+div.kuliner .left1 p{
+    text-align: center;
+}
+
+div.kuliner .left1 .tentang{
+    background: lightblue;
+    color: white;
+    margin-top: 35px;
+}
+
+div.kuliner .left1 .tentang h2{
+    margin: 2px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+div.kuliner .right1{
+    height: 50%;
+}
+
+div.kuliner .right1 .gambar{
+    text-align: center;
+}
+
+div.kuliner .right1 .gambar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.kuliner .right1 .judul{
+    text-align: center;
+}
+
+div.kuliner .right1 .judul h1{
+    font-size: 30px;
+    font-family: inherit;
+}
+
+div.kuliner .right1 p{
+    text-align: center;
+}
+
+div.kuliner .right1 .tentang{
+    background: lightblue;
+    color: white;
+    margin-top: 35px;
+}
+
+div.kuliner .right1 .tentang h2{
+    margin: 2px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+div.wisata{
+    height: 340%;
+    background: black;
+}
+
+div.wisata .judul h1{
+    font-family: sans-serif;
+    color: grey;
+    text-align: right;
+    font-size: 15px;
+}
+
+div.wisata .atas h1{
+    font-family: cursive;
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+
+div.wisata .left{
+    height: 400px;
+    background-image: url(wisata-malang-malam.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.wisata .right{
+    height: 400px;
+    float: left;
+}
+
+div.wisata .right p{
+    margin-top: 60px;
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+}
+
+div.wisata .atas2{
+    margin-top: 100px;
+}
+
+div.wisata .atas2 h1{
+    font-family: cursive;
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+
+div.wisata .left2{
+    height: 400px;
+    background-image: url(Hawai-Waterpark-Malang.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.wisata .right2{
+    height: 400px;
+    float: left;
+}
+
+div.wisata .right2 p{
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+}
+
+div.wisata .atas3{
+    margin-top: 100px;
+}
+
+div.wisata .atas3 h1{
+    font-family: cursive;
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+
+div.wisata .left3{
+    height: 400px;
+    background-image: url(e0ef8ccf7920ef1c39ee15e9c6ae21ca.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.wisata .right3{
+    height: 400px;
+    float: left;
+}
+
+div.wisata .right3 p{
+    margin-top: 120px;
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+}
+
+div.wisata .atas4{
+    margin-top: 100px;
+}
+
+div.wisata .atas4 h1{
+    font-family: cursive;
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+
+div.wisata .left4{
+    height: 400px;
+    background-image: url(wisata-indonesia-terbaik.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.wisata .right4{
+    height: 400px;
+    float: left;
+}
+
+div.wisata .right4 p{
+    margin-top: 150px;
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+

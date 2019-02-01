@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"] {float: left; padding: 15px;}
+
+/* for smartphone */
+[class*="col-"] {width: 100%;}
+
+@media only screen and (min-width: 600px)
+{
+    /* for tablets */
+    .col-s-1 {width: 8.33%; }
+    .col-s-2 {width: 16.66%; }
+    .col-s-3 {width: 25%; }
+    .col-s-4 {width: 33.33%; }
+    .col-s-5 {width: 41.66%; }
+    .col-s-6 {width: 50%; }
+    .col-s-7 {width: 58.33%; }
+    .col-s-8 {width: 66.66%; }
+    .col-s-9 {width: 75%; }
+    .col-s-10 {width: 83.33%; }
+    .col-s-11 {width: 91.66%; }
+    .col-s-12 {width: 100%; }
+}
+
+@media only screen and (min-width: 768px)
+{
+    /* for desktop */
+    .col-1 {width: 8.33%; }
+    .col-2 {width: 16.66%; }
+    .col-3 {width: 25%; }
+    .col-4 {width: 33.33%; }
+    .col-5 {width: 41.66%; }
+    .col-6 {width: 50%; }
+    .col-7 {width: 58.33%; }
+    .col-8 {width: 66.66%; }
+    .col-9 {width: 75%; }
+    .col-10 {width: 83.33%; }
+    .col-11 {width: 91.66%; }
+    .col-12 {width: 100%; }
+}
+
+.bg-green{color: green;}
+.bg-white{color: white;}
+
+div.left{
+    height: 100%;
+    background-image: url(star-hd-wallpapers3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    float: left;
+}
+
+div.left img{
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+}
+
+div.left .menu{
+    float: right;
+}
+
+div.left .menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+div.left .menu li{
+    float: left;
+    padding: 1px;
+    margin: 10px;
+}
+div.left .menu ul li a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: grey;
+    margin-top: 90px;
+}
+
+div.left .menu ul li a:hover{ 
+    color: green;
+}
+
+div.left h1{
+    margin-top: 250px;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Barking Cat DEMO';
+}
+
+div.left .kiri{
+    float: left;
+}
+
+div.left .kiri p{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div.right{
+    height: 100%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+div.right .profil{
+    height: 50%;
+    background: url(Upload-1-1-e1531203818417-780x405.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+div.right .wisata{
+    height: 100%;
+    background: url(12-potret-kampung-pelangi-desa-warna-warni-di-semarang-yang-mendunia-170517u.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-right: 1px solid white;
+}
+
+div.right .video{
+    height: 100%;
+    background: url(download.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+div.right .kuliner{
+    height: 50%;
+    background: url(Wisata-Kuliner-Recomende-Cover-750x390.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+div.right h1{
+    font-size: 60px;
+    font-family: 'Freestyle Script';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.right .gambar{
+    text-align: center;
+}
+
+div.right h2{  
+    font-size: 20px;
+    font-family: 'Bradley Hand ITC';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.right p{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div.right .sejarah{
+    text-align: center;
+}
+
+div.right .pendidikan{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
